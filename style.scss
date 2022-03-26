@@ -1,12 +1,23 @@
 * {
     margin: 0 0;
     padding: 0 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Montserrat";
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/asset/font/Montserrat-Regular.ttf") format("truetype"), url("/asset/font/Montserrat-Bold.ttf") format("truetype");
 }
 
 #logo {
     width: 300px;
     height: auto;
+}
+
+h1,
+h2 {
+    font-style: italic;
+    font-weight: bold;
 }
 
 #container {
@@ -20,7 +31,8 @@
         }
         margin-left: 20%;
         margin-right: 20%;
-        background-color: darken(#8b5795, 10);
+        background-color: darken(#8b5795,
+        10);
         height: 100%;
         padding-top: 50px;
         padding-bottom: 50px;
@@ -44,4 +56,13 @@ header {
     ul {
         padding-left: 5%;
     }
+}
+
+.img-container {
+    position: relative;
+    @media only screen and (max-width: 640px) {
+        display: block;
+    }
+    display: flex;
+    justify-content: center;
 }

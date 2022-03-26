@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
     <title>Elémentel</title>
 </head>
 
@@ -16,57 +17,74 @@
     <section id="container">
         <div id="container-body">
             <div class="blockContent">
+                <h1 style="font-size-adjust: 0.8;">Règles du jeu</h1²>
+
+            </div>
+            <div class="blockContent">
                 <h1>But du jeu</h1>
-                <p>Réunir les 5 composants encore en vie d’une seule et même (famille), si plusieurs joueurs ont réussi à former un smartphone, le joueur ayant le plus grand nombre de points de karma gagne la partie.</p>
+                <p>Garder en vie ou bien réunir les 5 composants d’une seule et même famille à la fin des 10 tours (années) de jeu. Si plusieurs joueurs ont réussi à former un smartphone, le joueur ayant le plus grand nombre de points de karma gagne la partie.</p>
             </div>
             <div class="blockContent">
-                <h1>Règles</h1>
+                <h1>Début de partie</h1>
+                <p>Chacun choisi une famille complète parmi 6 familles. Chaque carte sera composée d’une gommette permettant de connaitre son obsolescence programmée.</p>
+            </div>
+            <div class="blockContent">
+                <h1>Tour de jeu</h1>
+                <p>A chaque tour, chaque joueur doit piocher une Karma Card en plus d’effectuer une (ou plusieurs) action parmi les trois suivantes :</p>
                 <ul>
-                    <li>Au départ 1 famille complète au choix parmi 6 familles -> 2 à 6 joueurs.</li>
-                    <li>Obsolescence programmée des composants notée sur chaque carte « composant ».</li>
-                    <li>Au bout des 10 tours (années), avoir un smartphone avec tous les composants d’une seule et même marque et avoir le plus de points possible.</li>
+                    <li>Mettre une carte à la ecomob > il gagne 20 karma.</li>
+                    <li>Mettre une carte à la déchetel > il perd 50 karma.</li>
+                    <li>Acheter un composant au smart cash > prix du composant.</li>
                 </ul>
+                <p>A chaque fin de tour, les joueurs réalisent un troc entre eux.</p>
             </div>
             <div class="blockContent">
-                <h1>Fin de partie</h1>
-                <p>Conditions pour gagner : Réunir les 5 composants encore en vie d’une seule et même (famille), si plusieurs joueurs ont réussi à former un smartphone, le joueur ayant le plus grand nombre de points de karma gagne la partie. </p>
+                <h1 style="font-size-adjust: 0.8;">Les cartes & lieux</h1>
             </div>
             <div class="blockContent">
-                <h1>Carte Composant</h1>
+                <h1>Carte Composant "Element Card"</h1>
                 <ul>
-                    <li>Une valeur magasin / Une valeur recyclage</li>
-                    <li>Durée d'obsolescence programmée</li>
-                    <li>Une famille par carte « composant »</li>
+                    <li>Chargeur</li>
+                    <li>Ecran</li>
+                    <li>Caméra</li>
+                    <li>Microphone</li>
+                    <li>Batterie</li>
                 </ul>
-                ANIMATION Carte
+                <p>Sur chaque carte est indiqué sa valeur en magasin (smart card) et en recyclerie (ecomob) ainsi que son obsolescence programmée.</p>
+                <div class="img-container">
+                    <img alt="image" src="asset/Elementel_Verso.png" class="card animated"></a>
+                    <img alt="image" src="asset/ElémentCard Recto.png" class="card animated"></a>
+                </div>
             </div>
             <div class="blockContent">
-                <h1>Carte Karma</h1>
-                <p>(À piocher à chaque tour) Bon ou mauvais Karma ? Cette carte influera sur le cours du jeu. Entre bêtise, boulot et amour ta moitié tactile sera mise à rude épreuve. De plus lorsque tu piocheras une carte évènement « troc » ce sera le moment
-                    de faire vos échanges de composants.</p>
-                ANIMATION Carte
+                <h1>Carte Karma "Karma Card"</h1>
+                <p>À piocher à chaque tour, cette carte influera le cours du jeu. Entre bêtise, boulot et amour ta moitié tactile sera mise à rude épreuve.<br> Une particularité ? Lorsqu’un joueur pioche une Karmacard « troc », l’ensemble des joueurs doivent
+                    échanger leurs composants.<br>Alors, bon ou mauvais Karma ?</p>
+                <div class="img-container">
+                    <img alt="image" src="asset/Elementel_KarmaCard_Verso.png" class="card animated"></a>
+                    <img alt="image" src="asset/KARMACARD Recto.png" class="card animated"></a>
+                </div>
             </div>
             <div class="blockContent">
-                <h1>Magasin SmartCash</h1>
+                <h1>Magasin "SmartCash"</h1>
                 <p>Tu souhaites acheter neuf, ou tu es contraint de changer un composant de ton smartphone obsolète ou pas, le magasin te permettra de choisir ton nouveau composant.</p>
                 <ul>
-                    <li>Chargeur : Valeur neuve : 20 Valeur reconditionnée : 10</li>
-                    <li>Écran : Valeur neuve : 30 Valeur reconditionnée : 20</li>
-                    <li>Batterie : Valeur neuve : 50 Valeur reconditionnée : 30</li>
-                    <li>Caméra : Valeur neuve : 30 Valeur reconditionnée : 20</li>
-                    <li>Micro : Valeur neuve : 20 Valeur reconditionnée : 10</li>
+                    <li>Chargeur : Valeur neuve : 20 Valeur reconditionnée : 10 ROSE</li>
+                    <li>Écran : Valeur neuve : 30 Valeur reconditionnée : 20 BLEU</li>
+                    <li>Batterie : Valeur neuve : 50 Valeur reconditionnée : 30 JAUNE</li>
+                    <li>Caméra : Valeur neuve : 30 Valeur reconditionnée : 20 ROUGE</li>
+                    <li>Micro : Valeur neuve : 20 Valeur reconditionnée : 10 VERT</li>
                 </ul>
             </div>
             <div class="blockContent">
-                <h1>Ecomob - Recyclerie</h1>
-                <p>Un des composants de ton smartphone arrive en fin de vie, afin qu’il ne finisse pas à la déchetterie tu as la possibilité de le déposer ici en échange de la moitié de la valeur initiale de ton composant. D’autre part tu peux également
-                    acheter un composant reconditionné pour la moitié de sa valeur initiale si jamais un de te composants est à changer.
-                    <br><strong>ATTENTION : Nombre de cartes « composant » maximum à la déchetterie en fonction du nombre total de joueurs.<br>Exemple : 5 joueurs = 5 cartes</strong>
+                <h1>Recyclerie "Ecomob"</h1>
+                <p>Un des composants de ton smartphone arrive en fin de vie ? Afin qu’il ne finisse à la déchetel, tu as la possibilité de le vendre ici
+                    <br>L’Ecomod est aussi l’endroit idéal pour trouver les composants qu’il te manque. Dans ce lieu, tu peux acheter un composant reconditionné à une valeur réduite.<strong>ATTENTION : Nombre de cartes « composant » maximum à la déchetterie en fonction du nombre total de joueurs.<br>Exemple : 5 joueurs = 5 cartes</strong>
                 </p>
             </div>
             <div class="blockContent">
-                <h1>Trashphone - Déchetterie</h1>
-                <p>Un de tes composants est obsolète, ou tu n’as pas le choix que de le déposer à la déchetterie, alors tu perdras 50 (valeur). Bravo ce n’est pas écoresponsable.</p>
+                <h1>Déchetterie "Déchetel"</h1>
+                <p>Un de tes composants est obsolète ou bien tu as tiré une carte qui t’indique de le jeter ? Tu n’as donc pas le choix et doit le déposer à la déchetterie. Tu perds automatique 50 karma. Bravo ce n’est pas écoresponsable.</p>
             </div>
 
         </div>
